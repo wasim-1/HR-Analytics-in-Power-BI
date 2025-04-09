@@ -2,7 +2,7 @@
 
 ## Overview
 
-Power BI dashboard for HR analytics at Atlas Labs. Key areas: employee demographics, hiring, performance, and attrition. Data is current as of July 7, 2023. The dashboard provides insights into employee trends, satisfaction levels, and attrition patterns, enabling data-driven decision-making for HR.
+Power BI dashboard for HR analytics at Atlas Labs. Key areas: employee demographics, hiring, performance, and attrition. Data is current as of December 31, 2022. The dashboard provides insights into employee trends, satisfaction levels, and attrition patterns, enabling data-driven decision-making for HR.
 
 ## Dashboard Overview
 
@@ -40,15 +40,14 @@ The dashboard is structured into four key sections:
 
 ## Data Sources
 
-The dashboard uses several CSV files, strategically connected for in-depth analysis:
+The dashboard uses several data sources:
 
--   `Employee.csv`: Core employee data, including demographics (age, gender, department), job role, tenure, and attrition status. This is the central table.
--   `Hiring Data.csv`: Dates on the Hires and the Attrition of the Employees.
--   `PerformanceRating.csv`: Contains Performance Score data.
--   `SatisfiedLevel.csv`: Contains Employee Satisfaction data like Job Satisfaction, and Environment Satisfaction.
--   `RatingLevel.csv`: Contains Employees and Managers Performance Rating.
--   `EducationLevel.csv`: Provides Education Details such as Education Field and Education Level.
--   `DimDate.csv`: A date dimension table, used for time-based analysis and filtering.
+-   `DimDate.xlsx`: A date dimension table, used for time-based analysis.
+-   `EducationLevel.xlsx`: Provides Education Details.
+-   `Employee.xlsx`: Core employee data, including demographics, job role, tenure, and attrition.
+-   `PerformanceRating.xlsx`: Contains Performance Score data.
+-   `RatingLevel.xlsx`: Contains Employees and Managers Performance Rating.
+-   `SatisfiedLevel.xlsx`: Contains Employee Satisfaction data.
 
 ## Visualizations
 ![Screenshot (334)](https://github.com/user-attachments/assets/eee6d5a8-58ba-498d-aa20-6f62be69dddf)

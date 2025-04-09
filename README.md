@@ -78,7 +78,7 @@ The data model is designed for efficient and accurate analysis. Key relationship
 
 ## Usage
 
-1.  Open `Atlas Labs HR Analytics.pbip` in Power BI Desktop.
+1.  Open `HR Analytics in Power BI.pbip` in Power BI Desktop.
 2.  Refresh data connections to the CSV files to ensure you're working with the latest data.
 3.  Explore the tabs: Overview, Demographics, Performance, and Attrition.
 4.  Use filters and slicers within each tab to drill down and gain granular insights. For example, on the Performance tab, filter by department and then by Job Satisfaction to see trends within a specific group.
